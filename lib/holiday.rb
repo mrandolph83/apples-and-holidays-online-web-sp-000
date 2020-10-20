@@ -78,4 +78,5 @@ def all_holidays_with_bbq(holiday_hash)
   new_array = "[]"
   holiday_hash[:summer].keys << new_array
   holiday_hash[:spring].keys << new_array
+  new_array
 end
